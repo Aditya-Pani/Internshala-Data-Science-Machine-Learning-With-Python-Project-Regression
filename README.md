@@ -63,7 +63,7 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 - Feature scaling (if required)
 
 ### 📌 3. Model Selection & Training
-### Tested various regression models:
+&nbsp;&nbsp;&nbsp;&nbsp; **Tested various regression models:**
 
 - Linear Regression
 
@@ -76,7 +76,7 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 - Random Forest Regressor
 
 ### 📌 4. Model Evaluation
-### Metrics used:
+&nbsp;&nbsp;&nbsp;&nbsp; **Metrics used:**
 
 - Mean Squared Error (MSE)
 
@@ -87,17 +87,17 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 - Best model selected based on performance metrics
 
 ### 📌 5. Conclusions & Future Steps
-Answered the required markdown questions:
+&nbsp;&nbsp;&nbsp;&nbsp; **Answered the required markdown questions:**
 
-Project views
+- Project views
 
-Modeling approach
+- Modeling approach
 
-Model comparison
+- Model comparison
 
-Best performing model
+- Best performing model
 
-Potential improvements
+- Potential improvements
 
 ## 🏁 Final Output
 - Final trained model: RandomForestRegressor
