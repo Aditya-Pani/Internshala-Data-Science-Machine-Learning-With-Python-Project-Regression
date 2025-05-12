@@ -39,7 +39,7 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 
 ## 🔍 Steps Covered in Notebook
 ### 📌 1. Exploratory Data Analysis (EDA)
-   1.1) Dataset loading and initial inspection
+- 1.1) Dataset loading and initial inspection
 
 Understanding feature distributions
 
