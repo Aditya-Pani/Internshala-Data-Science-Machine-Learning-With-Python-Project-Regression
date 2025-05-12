@@ -39,52 +39,52 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 
 ## 🔍 Steps Covered in Notebook
 ### 📌 1. Exploratory Data Analysis (EDA)
-- 1.1) Dataset loading and initial inspection
+- Dataset loading and initial inspection
 
-Understanding feature distributions
+- Understanding feature distributions
 
-Checking for null values and data types
+- Checking for null values and data types
 
 ### 📌 2. Data Preprocessing
-Converting:
+### Converting:
 
-College → Numerical (Tier1: 1, Tier2: 2, Tier3: 3)
+- College → Numerical (Tier1: 1, Tier2: 2, Tier3: 3)
 
-City → Binary (Metro: 1, Non-Metro: 0)
+- City → Binary (Metro: 1, Non-Metro: 0)
 
-Role → Dummy variables (Role_Manager, Role_Executive)
+- Role → Dummy variables (Role_Manager, Role_Executive)
 
-Handling:
+### Handling:
 
-Missing values
+- Missing values
 
-Outliers (using IQR or z-score method)
+- Outliers (using IQR or z-score method)
 
-Feature scaling (if required)
+- Feature scaling (if required)
 
 ### 📌 3. Model Selection & Training
-Tested various regression models:
+### Tested various regression models:
 
-Linear Regression
+- Linear Regression
 
-Ridge Regression
+- Ridge Regression
 
-Lasso Regression
+- Lasso Regression
 
-Decision Tree Regressor
+- Decision Tree Regressor
 
-Random Forest Regressor
+- Random Forest Regressor
 
 ### 📌 4. Model Evaluation
-Metrics used:
+### Metrics used:
 
-Mean Squared Error (MSE)
+- Mean Squared Error (MSE)
 
-Root Mean Squared Error (RMSE)
+- Root Mean Squared Error (RMSE)
 
-R-squared (R²)
+- R-squared (R²)
 
-Best model selected based on performance metrics
+- Best model selected based on performance metrics
 
 ### 📌 5. Conclusions & Future Steps
 Answered the required markdown questions:
@@ -100,16 +100,14 @@ Best performing model
 Potential improvements
 
 ## 🏁 Final Output
-Final trained model: RandomForestRegressor
+- Final trained model: RandomForestRegressor
 
-Best performance: R-Squared = 0.645
+- Reasons for selection: Handles non-linear relationships and performs well without overfitting
 
-Reasons for selection: Handles non-linear relationships and performs well without overfitting
+## Improvement areas:
 
-Improvement areas:
+- Hyperparameter tuning using GridSearchCV
 
-Hyperparameter tuning using GridSearchCV
+- Feature engineering (e.g., interaction terms)
 
-Feature engineering (e.g., interaction terms)
-
-Including more external data (e.g., industry-level salary benchmarks)
+- Including more external data (e.g., industry-level salary benchmarks)
