@@ -46,7 +46,7 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 - Checking for null values and data types
 
 ### 📌 2. Data Preprocessing
-### 2.1) Converting
+###     2.1) Converting
 
 - College → Numerical (Tier1: 1, Tier2: 2, Tier3: 3)
 
