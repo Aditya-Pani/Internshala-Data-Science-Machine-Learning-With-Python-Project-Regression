@@ -5,42 +5,41 @@ This project is part of the Data Science Post Graduate Course by Internshala Tra
 ## 🧩 Problem Statement
 TechWorks Consulting wants to determine fair and competitive salaries for new employees using a data-driven approach. Given historical data that includes:
 
-College Tier (Tier1, Tier2, Tier3)
+1) College Tier (Tier1, Tier2, Tier3)
 
-City Type (Metro or Non-Metro)
+2) City Type (Metro or Non-Metro)
 
-Role (Manager/Executive)
+3) Role (Manager/Executive)
 
-Previous CTC
+4) Previous CTC
 
-Previous Job Change
+5) Previous Job Change
 
-Graduation Marks
+6) Graduation Marks
 
-Work Experience
+7) Work Experience
 
-Current CTC
+8) Current CTC
 
 ...our task is to:
 
 Build a regression model that predicts the employee's salary (CTC) based on these features.
 
 ## 🛠 Technologies Used
-Python
+1) Python
 
-Jupyter Notebook
+2) Jupyter Notebook
 
-pandas, numpy – Data manipulation
+3) pandas, numpy – Data manipulation
 
-matplotlib, seaborn – Visualization
+4) matplotlib, seaborn – Visualization
 
-scikit-learn – Machine Learning
+5) scikit-learn – Machine Learning
 
-statsmodels – Statistical testing
 
 ## 🔍 Steps Covered in Notebook
 ### 📌 1. Exploratory Data Analysis (EDA)
-Dataset loading and initial inspection
+    1.1) Dataset loading and initial inspection
 
 Understanding feature distributions
 
@@ -101,9 +100,9 @@ Best performing model
 Potential improvements
 
 ## 🏁 Final Output
-Final trained model: [Model Name, e.g., RandomForestRegressor]
+Final trained model: RandomForestRegressor
 
-Best performance: [e.g., R² = 0.88, RMSE = 23,000]
+Best performance: R-Squared = 0.645
 
 Reasons for selection: Handles non-linear relationships and performs well without overfitting
 
