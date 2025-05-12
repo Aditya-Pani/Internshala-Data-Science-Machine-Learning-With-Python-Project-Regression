@@ -46,7 +46,7 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 - Checking for null values and data types
 
 ### 📌 2. Data Preprocessing
-&nbsp;&nbsp;&nbsp;&nbsp;**2.1) Converting:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Converting:**
 
 - College → Numerical (Tier1: 1, Tier2: 2, Tier3: 3)
 
@@ -54,7 +54,7 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 
 - Role → Dummy variables (Role_Manager, Role_Executive)
 
-&nbsp;&nbsp;&nbsp;&nbsp; **2.2) Handling:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Handling:**
 
 - Missing values
 
@@ -63,7 +63,7 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 - Feature scaling (if required)
 
 ### 📌 3. Model Selection & Training
-&nbsp;&nbsp;&nbsp;&nbsp; **Tested various regression models:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Tested various regression models:**
 
 - Linear Regression
 
@@ -76,7 +76,7 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 - Random Forest Regressor
 
 ### 📌 4. Model Evaluation
-&nbsp;&nbsp;&nbsp;&nbsp; **Metrics used:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Metrics used:**
 
 - Mean Squared Error (MSE)
 
@@ -87,7 +87,7 @@ Build a regression model that predicts the employee's salary (CTC) based on thes
 - Best model selected based on performance metrics
 
 ### 📌 5. Conclusions & Future Steps
-&nbsp;&nbsp;&nbsp;&nbsp; **Answered the required markdown questions:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Answered the required markdown questions:**
 
 - Project views
 
